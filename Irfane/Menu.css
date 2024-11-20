@@ -1,0 +1,67 @@
+/* Reset and general settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Wrapper to contain both menu and content */
+.wrapper {
+    display: flex;
+}
+
+/* Styling for the navigation menu */
+nav {
+    width: 250px;
+    background-color: #007bff;
+    padding: 20px;
+    color: white;
+    height: 100vh;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the content area */
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    height: 100vh;
+    overflow: auto;
+}
+
+/* Iframe Styling */
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 5px;
+}

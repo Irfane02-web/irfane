@@ -1,0 +1,16 @@
+table{
+    border-collapse:collapse
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+.admis {
+    background-color:green;
+}
+.enjambement {
+    background-color: rgba(235, 155, 7, 0.979);
+}
+.refusé {
+    background-color: rgba(235, 7, 7, 0.979);
+}
